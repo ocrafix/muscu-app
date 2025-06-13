@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f0f0f0;
+  color: #333;
+}
+h1 {
+  text-align: center;
+  color: #8e44ad;
+  margin-bottom: 20px;
+}
+#random-route-btn {
+  display: block;
+  margin: 0 auto 20px auto;
+  padding: 10px 20px;
+  background-color: #8e44ad;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#random-route-btn:hover {
+  background-color: #732d91;
+}
+.trajets-list {
+  list-style: none;
+  padding: 0;
+}
+.trajet {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  margin-bottom: 10px;
+  padding: 12px 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.trajet span {
+  font-weight: bold;
+}
+.open-btn {
+  background-color: #8e44ad;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.open-btn:hover {
+  background-color: #732d91;
+}
+/* Responsive : réorganiser pour petits écrans */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+  .trajet {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .open-btn {
+    margin-top: 8px;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.btn-home {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: #8e44ad;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(42, 122, 226, 0.5);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+.btn-home:hover {
+  background-color: #732d91;
+  box-shadow: 0 5px 12px rgba(31, 91, 184, 0.7);
+}
