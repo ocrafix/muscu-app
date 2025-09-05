@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+h1, h2 {
+  color: #b22222;
+}
+
+.exercise {
+  background: #fff;
+  border-left: 5px solid #b22222;
+  margin-bottom: 20px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.exercise img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+}
+
+.btn-home {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: #b22222;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(42, 122, 226, 0.5);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+.btn-home:hover {
+  background-color: #7a1a1a;
+  box-shadow: 0 5px 12px rgba(31, 91, 184, 0.7);
+}
