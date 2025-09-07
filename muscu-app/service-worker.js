@@ -14,6 +14,8 @@ self.addEventListener('install', event => {
         './stylec.css',
         './repos.hmtl',
         './stylerepos.css',
+        './fb.html',
+        './fb.css',
         './manifest.json',
         './icon-600.png'
       ]);
