@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff8f0;
+  color: #444;
+  margin: 20px;
+}
+
+h1, h2 {
+  color: #ff6600;
+}
+
+.exercise {
+  background: #fff;
+  border-left: 5px solid #ff6600;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(255,102,0,0.15);
+}
+
+.exercise img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+}
+
+.btn-home {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: #ff6600;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(42, 122, 226, 0.5);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+.btn-home:hover {
+  background-color: #cc5200;
+  box-shadow: 0 5px 12px rgba(31, 91, 184, 0.7);
+}

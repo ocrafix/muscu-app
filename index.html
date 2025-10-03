@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#8e44ad" />
+  <title>Programme Muscu</title>
+
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" href="icons/icon-192.png" />
+</head>
+<body>
+  <div class="table-container">
+    <table>
+      <caption>Programme muscu Vacances</caption>
+      <thead>
+        <tr>
+          <th scope="col">Jour</th>
+          <th scope="col">Matin</th>
+          <th scope="col">Après-Midi / Soir</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Lundi</th>
+          <td><a href="hdc.html">Haut du corps</a></td>
+          <td><a href="cardio.html">Cardio</a></td>
+        </tr>
+        <tr>
+		      <th scope="row">Mardi</th>
+		      <td><a href= "bdc.html">Bas du Corps</a></td>
+		      <td><a href= "velo.html">Vélo</a></td>
+		    </tr>
+
+		    <tr>
+		      <th scope="row">Mercredi</th>
+		      <td><a href= "corps.html">Core</a></td>
+		      <td><strong>Course à pied</strong></td>
+		    </tr>
+
+		    <tr>
+		      <th scope="row">Jeudi</th>
+		      <td><a href= "cardio.html">Cardio</a></td>
+		      <td><a href= "etirements.html">Etirements</a></td>
+		    </tr>
+
+		    <tr>
+		      <th scope="row">Vendredi</th>
+		      <td><a href= "hdc.html">Haut du corps</a></td>
+		      <td><a href= "corps.html">Core</a></td>
+		    </tr>
+
+		    <tr>
+		      <th scope="row">Samedi</th>
+		      <td><a href= "velo.html">Vélo</a></td>
+		      <td>-</td>
+		    </tr>
+
+		    <tr>
+		      <th scope="row">Dimanche</th>
+		      <td><a href= "repos.html">Repos actif</a></td>
+		      <td>-</td>
+		    </tr>
+      </tbody>
+    </table>
+
+    <table>
+      <caption>Programme muscu Cours</caption>
+      <thead>
+        <tr>
+          <th scope="col">Jour</th>
+          <th scope="col">Matin</th>
+          <th scope="col">Après-Midi / Soir</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Lundi</th>
+          <td>-</td>
+          <td><a href= "bdc.html">Bas du Corps</a></td>
+        </tr>
+
+        <tr>
+		      <th scope="row">Mardi</th>
+		      <td>-</td>
+		      <td>-</td>
+		    </tr>
+
+		    <tr>
+		      <th scope="row">Mercredi</th>
+		      <td>-</td>
+		      <td><a href= "fb.html">Full Body AS</a></td>
+		    </tr>
+
+		    <tr>
+		      <th scope="row">Jeudi</th>
+		      <td>-</td>
+		      <td>-</td>
+		    </tr>
+
+		    <tr>
+		      <th scope="row">Vendredi</th>
+		      <td><strong>EPS</strong></td>
+		      <td><a href="hdc.html">Haut du corps</a></td>
+		    </tr>
+
+		    <tr>
+		      <th scope="row">Samedi</th>
+		      <td><a href= "velo.html">Vélo</a></td>
+		      <td><a href= "corps.html">Core</a></td>
+		    </tr>
+
+		    <tr>
+		      <th scope="row">Dimanche</th>
+		      <td>-</td>
+		      <td><a href= "cardio.html">Cardio</a></td>
+		    </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js')
+        .then(reg => console.log('Service worker enregistré.'))
+        .catch(err => console.error('Erreur SW:', err));
+    }
+  </script>
+</body>
+</html>

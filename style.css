@@ -1,0 +1,92 @@
+html {
+  font-family: 'Helvetica Neue', helvetica, arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 20px;
+}
+
+body {
+  margin: 0;
+}
+
+caption {
+  font-family: 'Rock Salt', cursive;
+  font-size: 1.8rem;
+  padding: 20px;
+  color: #8e44ad;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.table-container {
+  max-width: 100%;
+  overflow-x: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: none;
+}
+
+
+thead th {
+  background: linear-gradient(to bottom, #444, #222);
+  color: white;
+  padding: 15px;
+  text-align: center;
+  border-bottom: 4px solid #8e44ad;
+  font-family: 'Rock Salt', cursive;
+  letter-spacing: 2px;
+}
+
+
+th, td {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+td {  
+  color: #8e44ad;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+  background-color: #ffe5e5;
+  transition: background-color 0.3s ease;
+}
+
+a {
+  color: #8e44ad;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #6e2c91;
+}
+
+
+@media (max-width: 600px) {
+  table {
+    font-size: 0.85rem;
+  }
+
+  caption {
+    font-size: 1.3rem;
+  }
+
+  th, td {
+    padding: 8px;
+  }
+}
