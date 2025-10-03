@@ -29,8 +29,8 @@ h1, h2 {
   display: inline-block;
   margin-top: 30px;
   padding: 10px 20px;
-  background-color: #2e8b57;
-  color: white;
+  background-color: #FFD54F;
+  color: #000;
   text-decoration: none;
   font-weight: bold;
   border-radius: 5px;
@@ -38,6 +38,7 @@ h1, h2 {
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 .btn-home:hover {
-  background-color: #1e5d3b;
+  background-color: #E6BE3F;
   box-shadow: 0 5px 12px rgba(31, 91, 184, 0.7);
 }
+
